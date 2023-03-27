@@ -1,4 +1,4 @@
-﻿@import url('https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation:wght@500&family=Montserrat&family=Montserrat+Alternates:ital,wght@1,200&family=Sawarabi+Mincho&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sawarabi+Mincho&display=swap');
 
 
 
@@ -21,6 +21,13 @@
     box-shadow: 35px;
     opacity: 0.7;
     font-size: 30px;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 30px;
+    margin-inline-end: 0px;
+    text-align: center;
+}
 }
 
 
@@ -53,9 +60,19 @@ p.formText {
 
 label {
     color: antiquewhite;
+    font-size: 27px;
 }
 
 
 #Result {
     color: antiquewhite;
+    font-size: 20px;
 }
+
+p {
+    box-shadow: 50px;
+}
+
+
+
+
